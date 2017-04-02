@@ -576,10 +576,13 @@ a, a:hover, a:visited, a:active, a:focus{
 	transition: 0.75s ease-in-out;
 }
 
+#embed-div{
+	text-align: center;
+}
+
 #embed-div > iframe{
 	max-height: 363px;
-
-}
+}	
 
 .headline{
 	font-size: 250%;
