@@ -8,6 +8,8 @@ $bandpage = get_field('bandpage');
   <div class="events-between">
 
     <?php if($bandpage === 'Yes'){ ?>    
+
+    <!-- HALLO PLZ I WANT TO KNOW -->
     
     <div class="bp-widget"           
           data-bandpage-bandbid="12339930114297856"
@@ -46,10 +48,11 @@ $bandpage = get_field('bandpage');
   
 </script>
 
-  <div class="scroller contact-scroller visual-fade">      
+  <!-- <div class="scroller contact-scroller visual-fade">      
     <div class="link-scroll">
       <a href="#contact" id="5" ><i class="fa fa-chevron-down center"></i></a>
     </div>      
-  </div><!-- .scroller -->
+  </div> -->
+  <!-- .scroller -->
 
 </section>
