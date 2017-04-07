@@ -19,8 +19,8 @@ $bandcamp_4 = get_field('bandcamp_4');
 	<div id="home-inner">
 
 		<div id="hero-banner" class="sneak-away">			
-  		<img src="<?php bloginfo ('template_url'); ?>/assets/img/Jaff56b.png" alt="Living~Stone" id="main56" class="sneak-away">
-  		<img src="https://livingstonedubz.com/wp-content/uploads/2016/04/Jaff2.gif" alt="Living~Stone" id="main-gif56" class="sneak-away">
+  		<!-- <img src="<?php bloginfo ('template_url'); ?>/assets/img/Jaff56b.png" alt="Living~Stone" id="main56" class="sneak-away"> -->
+  		<!-- <img src="https://livingstonedubz.com/wp-content/uploads/2016/04/Jaff2.gif" alt="Living~Stone" id="main-gif56" class="sneak-away"> -->
   		<!-- <img src="<?php echo $banner_gif['url']; ?>" alt="Living~Stone" id="main-gif56" class="sneak-away"> -->
 
 		</div>
