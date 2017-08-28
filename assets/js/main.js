@@ -51,16 +51,7 @@ $( document ).on( 'keydown', function ( e ) {
   	}
 });
 
-//var width = $(window).width();
-// if(jimmy == "Soundcloud"){
-// 	var myFrame = $("#embed-div").children('iframe');
-// }else if(jimmy == "Youtube"){
-// 	var myFrame = $(".embed-container").children('iframe');
-// }
-
 var myFrame = $('.bandcamper');
-
-
 
 $( document ).ready(function() {
 
@@ -92,8 +83,7 @@ function outIn(){
 function scrollBud(){
 	$('#scroller-1').fadeIn(2500).removeClass('hide').promise().done(function(){
 		$(this).addClass('flicker');
-		$('body').removeClass('no-scroll').addClass('scroll-fix');
-		//$('#embed-div').addClass('scroll-refix');
+		$('body').removeClass('no-scroll').addClass('scroll-fix');		
 	});
 }
 
@@ -102,44 +92,6 @@ function scrollBud(){
 $('#join a').on('click', function(){
 	$('.signup').fadeIn(400).toggleClass('hide');
 });
-
-// $( document ).ready(function() {
-// 		$('iframe').addClass('hide');
-// 		$('#fade-out').fadeIn(5000).removeClass('hide');		
-//     fadeBiz();
-// });
-
-// $( document ).ready(function() {
-		
-// 		$('#fade-out').fadeIn(6500).removeClass('hide').promise().done(function(){
-// 			$('#fade-out').addClass('fancy');
-//     	fadeBiz();
-// 		});
-		
-// });
-
-// function fadeBiz(){
-// 	setTimeout(outIn, 250);
-// }
-
-// function outIn(){
-
-// 	$('#fade-out').fadeOut(1000).promise().done(function(){
-// 		$('iframe').fadeIn(1000).removeClass('hide');
-// 	});
-// }
-
-// var myFrame = $("#embed-div").children('iframe');
-
-// function outIn(){
-
-// 	//$('#fade-out').addClass('fancy').promise().done(function(){
-// 		//$('iframe').removeClass('hide', function(){
-// 			$(myFrame).addClass('embed-center');
-// 		//})
-// 	//});
-// }
-
 
 
 
@@ -157,22 +109,8 @@ $(function() {
 	}
 });
 
-// document.onreadystatechange = function () {
-//   var state = document.readyState
-//   if (state == 'interactive') {
-//        document.getElementById('contents').style.visibility="hidden";
-//   } else if (state == 'complete') {
-//       setTimeout(function(){
-//          document.getElementById('interactive');
-//          document.getElementById('load').style.visibility="hidden";
-//          document.getElementById('contents').style.visibility="visible";
-//       },1000);
-//   }
-// }
 
-$('#tast').on('click', function(){
-		alert(jimmy);
-	});
+
 
 
 
